@@ -23,9 +23,9 @@ print([[
 				</div>
 				<div id="input">
 					<form action="index.lua">
-						<input type="text" name="text" value="]]..htmlencode(get.text or "")..[[" style="font-size:20px;">
+						<input type="text" name="text" value="]]..htmlencode(get.text or "")..[[" style="font-size:20px; background-color: #151515; color: EFEFEF;">
 						<input type="hidden" name="font" value="]]..htmlencode(cfont)..[[">
-						<input type="submit" value="Submit" style="font-size:20px;"/>
+						<input type="submit" value="Submit" style="font-size:20px; background-color: #151515; color: EFEFEF;"/>
 					</form>
 				</div>
 				<div id="fonts"/>]])
